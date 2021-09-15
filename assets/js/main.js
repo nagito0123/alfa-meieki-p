@@ -129,3 +129,8 @@ app.component('answer-input', {
 })
 
 app.mount('#stage')
+
+window.onload = function () {
+  const storage = localStorage;
+  document.getElementById("user_name").innerHTML = storage.getItem("name");
+};
