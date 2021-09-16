@@ -8,4 +8,4 @@ document.getElementById("game_start").addEventListener("click",function(){
     }
     storage.setItem("name", name);
     window.location.href = './main.html';
-});
+},false);
