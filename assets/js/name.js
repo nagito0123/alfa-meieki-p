@@ -8,4 +8,6 @@ document.getElementById("game_start").addEventListener("click",function(){
     }
     storage.setItem("name", name);
     window.location.href = './main.html';
+    window.location.href = './hint1.html';
+    
 },false);
