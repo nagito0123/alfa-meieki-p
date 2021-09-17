@@ -12,6 +12,10 @@ const app = Vue.createApp({
   data() {
     /* 初期値を設定します */
     return {
+      /*
+      *ユーザー名の定義
+      */
+      userName: localStorage.getItem("name"),
       /* 解答
       *  ex. 問題2-3を追加する場合はstage2の配列に解答を追加します。
       *    q3: 'おおお',

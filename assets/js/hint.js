@@ -1,3 +1,16 @@
+const app = Vue.createApp({
+  data() {
+    return {
+      /*
+      *ユーザー名の定義
+      */
+      userName: localStorage.getItem("name")
+    }
+  }
+});
+
+app.mount('main');
+
 'use strict'
 /* ヒントの開閉を設定します */
 {
